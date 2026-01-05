@@ -60,6 +60,12 @@ JSON
     "percentual_uso": "60.00%"
 }
 PROCEDIMENTOS DE EXECUÇÃO
+
+### INICIALIZAÇÃO VIA DOCKER (RECOMENDADO)
+Para subir o ambiente completo de forma automatizada:
+```powershell
+docker-compose up --build
+
 INICIALIZAÇÃO DO SERVIDOR
 PowerShell
 
