@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    container_name: guardians-db
+    environment:
+      POSTGRES_DB: guardiansfin
+      POSTGRES_USER: dev_user
+      POSTGRES_PASSWORD: dev_password
+    ports:
+      - "5432:5432"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: guardians-broker
+    ports:
+      - "5672:5672"   # Porta para comunicação do app
+      - "15672:15672" # Dashboard administrativo (http://localhost:15672)
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
