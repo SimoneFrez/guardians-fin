@@ -1,4 +1,4 @@
-# GUARDIANS FIN // MONITOR DE EXPOSIÇÃO FGC
+# Sentinela-FGC // MONITOR DE EXPOSIÇÃO FGC
 
 ### SISTEMA DE CONTROLE DE RISCO E CONFORMIDADE FINANCEIRA
 Este projeto consiste em uma API robusta desenvolvida em **Kotlin** e **Spring Boot**, projetada para mitigar riscos em aportes financeiros, validando a exposição do investidor em relação ao teto de garantia do **Fundo Garantidor de Créditos (FGC)**.
